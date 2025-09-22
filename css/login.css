@@ -35,7 +35,7 @@ footer{
     border: 1px solid black;
 }
 
-ul{
+#navul{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,6 +68,8 @@ textarea{
 
 
 #task{
+    display: flex;
+    justify-content: space-between;
     width: 90%;
     min-height: 90px;
     border: 1px solid black;
@@ -83,9 +85,7 @@ textarea{
 }
 
 .btns{
-    position: relative;
-    width: 5vw;
-    left: 87%;
+    
 }
 
 #shortz{
