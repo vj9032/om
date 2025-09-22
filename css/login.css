@@ -1,0 +1,98 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav,header,footer,main{
+    margin-bottom: 5px;
+}
+nav{
+    width: 90vw;
+    height: 8vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    width: 90vw;
+    /* height: 30vh; */
+    border: 1px solid black;
+}
+
+main{
+    width: 90vw;
+    min-height: 80vh;
+    border: 1px solid black;
+    
+}
+
+footer{
+    width: 90vw;
+    height: 20vh;
+    border: 1px solid black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-right: 5%;
+    font-size: large;
+}
+li{
+    list-style: none;
+}
+
+#logo{
+    margin-left: 5%;
+}
+
+.contnt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.contnt > *{
+    margin-bottom: 10px;
+}
+
+textarea{
+    height: 50px;
+}
+
+
+#task{
+    width: 90%;
+    min-height: 90px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#itemList{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns{
+    position: relative;
+    width: 5vw;
+    left: 87%;
+}
+
+#shortz{
+    position: relative;
+    background-color: red;
+    width: 5vw;
+    display: inline;
+    left: 90%;
+    
+}
